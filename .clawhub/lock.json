@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "skills": {
+    "gog": {
+      "version": "1.0.0",
+      "installedAt": 1771151984589
+    },
+    "github": {
+      "version": "1.0.0",
+      "installedAt": 1771152016449
+    },
+    "Mcporter": {
+      "version": "1.0.0",
+      "installedAt": 1771152055803
+    }
+  }
+}
