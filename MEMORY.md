@@ -169,3 +169,18 @@ Primary storage locations:
 1. **IMMEDIATE**: Start OpenClaw Gateway service
 2. Investigate why Gateway fails to start (execution policy, permissions, configuration)
 3. Gateway is required for OpenClaw to function as intended
+
+## 2026-02-16 02:49
+**Heartbeat Check Results:**
+- ? Control UI (port 18789): Still running (process 11372)
+- ? Gateway (port 18790): **STILL NOT RUNNING** - Critical issue persists
+
+**Status Summary:**
+1. OpenClaw Gateway has been offline for over 4 hours
+2. Control UI remains operational but with limited functionality
+3. System cannot operate fully without Gateway service
+
+**Immediate Recommendation:**
+1. Manual intervention required to start OpenClaw Gateway
+2. Check OpenClaw installation and service configuration
+3. Gateway is essential for all messaging and coordination functions
