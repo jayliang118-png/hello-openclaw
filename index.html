@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello OpenClaw - Single Page App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto+Mono:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="logo">
+                <i class="fas fa-paw"></i>
+                <h1>Hello OpenClaw</h1>
+            </div>
+            <p class="subtitle">Your first OpenClaw-powered single-page application</p>
+        </header>
+
+        <main class="main-content">
+            <section class="hero">
+                <div class="hero-content">
+                    <h2><i class="fas fa-rocket"></i> Welcome to Your OpenClaw App</h2>
+                    <p class="hero-text">This is a simple single-page web application created and deployed automatically through OpenClaw's GitHub integration.</p>
+                    
+                    <div class="counter-section">
+                        <h3><i class="fas fa-mouse-pointer"></i> Interactive Counter</h3>
+                        <div class="counter-display">
+                            <span id="counter-value">0</span>
+                        </div>
+                        <div class="counter-controls">
+                            <button id="decrement-btn" class="btn btn-secondary">
+                                <i class="fas fa-minus"></i> Decrement
+                            </button>
+                            <button id="reset-btn" class="btn btn-warning">
+                                <i class="fas fa-redo"></i> Reset
+                            </button>
+                            <button id="increment-btn" class="btn btn-primary">
+                                <i class="fas fa-plus"></i> Increment
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="features">
+                <h2><i class="fas fa-star"></i> App Features</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3>Clean Code</h3>
+                        <p>Well-structured HTML, CSS, and JavaScript with modern best practices.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <h3>Responsive Design</h3>
+                        <p>Looks great on all devices from mobile to desktop.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-bolt"></i>
+                        </div>
+                        <h3>Fast & Lightweight</h3>
+                        <p>No frameworks or heavy libraries - just vanilla JS.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <h3>GitHub Integrated</h3>
+                        <p>Automatically deployed from your GitHub repository.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="info-section">
+                <h2><i class="fas fa-info-circle"></i> About This Project</h2>
+                <div class="info-content">
+                    <p>This application was created automatically by OpenClaw in response to your request. It demonstrates:</p>
+                    <ul>
+                        <li><i class="fas fa-check-circle"></i> <strong>GitHub Integration:</strong> OpenClaw can create and manage repositories</li>
+                        <li><i class="fas fa-check-circle"></i> <strong>Web Development:</strong> Ability to create functional web applications</li>
+                        <li><i class="fas fa-check-circle"></i> <strong>Automation:</strong> Complete workflow from request to deployment</li>
+                        <li><i class="fas fa-check-circle"></i> <strong>Interactive Elements:</strong> JavaScript functionality with event handling</li>
+                    </ul>
+                    
+                    <div class="github-info">
+                        <h3><i class="fab fa-github"></i> Repository Information</h3>
+                        <div class="repo-details">
+                            <p><strong>Owner:</strong> jayliang118-png</p>
+                            <p><strong>Repository:</strong> hello-openclaw</p>
+                            <p><strong>Created:</strong> <span id="current-date">Loading...</span></p>
+                        </div>
+                        <a href="https://github.com/jayliang118-png/hello-openclaw" target="_blank" class="btn btn-github">
+                            <i class="fab fa-github"></i> View on GitHub
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p>Created with <i class="fas fa-heart"></i> by OpenClaw • <span id="current-year">2026</span></p>
+            <p class="footer-note">This single-page application is automatically maintained through your OpenClaw + GitHub integration.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
