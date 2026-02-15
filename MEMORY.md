@@ -53,3 +53,13 @@ Primary storage locations:
 2. Adjust PowerShell execution policy for development
 3. Verify test execution once Gateway is running
 
+## 2026-02-15 22:49
+**Heartbeat Check Results:**
+- ✅ Control UI (port 18789): Running and accessible
+- ❌ Gateway (port 18790): Not running - **URGENT ATTENTION NEEDED**
+- ⚠️ BasketballConnect app (port 3001): Status uncertain (previously running on port 3001)
+
+**Immediate Action Required:**
+1. Start OpenClaw Gateway service to restore full functionality
+2. Gateway is essential for OpenClaw system operation
+
